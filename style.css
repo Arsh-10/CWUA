@@ -29,10 +29,10 @@ nav{
 
 @media (max-width: 768px) {
     #head1{
-        font-size: 35px;
+        font-size: 30px;
     }
     #p1{
-        font-size: 18px;
+        font-size: 17px;
     }
     #img1{
         width: 300px;
@@ -43,5 +43,18 @@ nav{
 
 #img1{
     height: 600px;
-
 }
+
+#bg1{
+    background-image: url('./pics/fixed\ bg1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* #cbg1{
+    background-image: url('./pics/contact\ bg1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+} */
